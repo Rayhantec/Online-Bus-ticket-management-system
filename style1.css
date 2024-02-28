@@ -1,0 +1,252 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+
+}
+
+
+
+}
+
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*....................................main.................................................................*/
+
+.wrap
+{
+    height:1007px;
+    
+    background-color: pink;
+}
+header
+{
+    height: 120px;
+    width:100%;
+    background-color: #93a7b2;
+}
+section
+{
+    height: 780px;
+    width:100%;
+    background-color: peru;   
+}
+footer
+{
+    height: 107px;
+    width:100%;
+    background-color: #93a7b2;
+}
+.logo
+{
+    float: left;
+    padding-left: 20px;
+}
+.logo img
+{
+    height: 90px;
+    width:100px;
+    padding-left: 90px;
+}
+li a
+{
+    color: black;
+    text-decoration: none;
+}
+nav
+{
+    float:right;
+    word-spacing: 35px;
+    padding: 20px;
+}
+nav li
+{
+    display:inline-block;
+    line-height: 80px;
+}
+section .sec_img
+{
+    height: 800px;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("pics/a.jpg");
+
+    
+}
+.box
+{
+    height: 300px;
+    width: 550px;
+    background-color: #0d0f2b;
+    margin: 250px auto;
+    opacity: 0.7;
+    color: white;
+}
+
+/*-------------------------------------admin login----------------------------------------------------------*/
+
+.log_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("pics/e.jpg");
+}
+.box1
+{
+    height: 350px;
+    width: 480px;
+    background-color:#93a7b2;
+    margin: 60px auto;
+    opacity: .8;
+    color: #000000;
+    padding: 20px;
+}
+form .login
+{
+    margin:auto 70px;
+}
+input
+{
+    height: 25px;
+    width: 300px;
+}
+
+/***********************************************************************booking********************************************/
+
+.reg_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("pics/b.jpg");
+}
+.box2
+{
+    height: 450px;
+    width: 450px;
+    background-color:#1a5f80;
+    margin: 0px auto;
+    opacity: .8;
+    color: white;
+    padding: 20px;
+
+}
+
+/****************************************************************************bus******************************************************************/
+
+.head
+{
+    height: 120px;
+    width:100%;
+    background-image: url("pics/d.jpg");
+}
+
+
+/********************************************************login*******************************************************************/
+.box9
+{
+    height: 350px;
+    width: 480px;
+    background-color:#93a7b2;
+    margin: 60px auto;
+    opacity: .8;
+    color: #000000;
+    padding: 20px;
+}
+
+/*******************************************************Customer reg*********************************************************/
